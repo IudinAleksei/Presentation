@@ -19,7 +19,12 @@
 				<section>
 				<section>
           <h1>React</h1>
+          <h2>Short introduction</h2>
           <img src="assets/react.svg" alt="react logo" width="300px" height="300px">
+          <aside class="notes">
+            Hello everyone!
+            Today you will hear a short story about React.
+          </aside>
 				</section>
         </section>				
         <section>
@@ -27,6 +32,7 @@
           <p>React was created by Jordan Walke</p>
           <img src="assets/FAS.png" alt="react logo" height="200px">
             <aside class="notes">
+              I want to start with the basic historical facts.
               React was created by Jordan Walke, a software engineer at Facebook, who released an early prototype of React called "FaxJS". 
               He was influenced by XHP, an HTML component library for PHP. 
               It was first deployed on Facebook's News Feed in 2011 and later on Instagram in 2012. 
@@ -34,14 +40,57 @@
             </aside>
         </section>
         <section>
-          <h1>What Is React?</h1>
-            <h3>React is a declarative, efficient, and flexible JavaScript library for building user interfaces.</h3>
+          <h2>What Is React?</h2>
+            <h4>React is a declarative, efficient, and flexible JavaScript library for building user interfaces.</h4>
+            <img src="assets/ui.jpg" alt="user interface" height="300px">
             <aside class="notes">
+              And? What Is React?
               React is a declarative, efficient, and flexible JavaScript library for building user interfaces. 
+            </aside>            
+        </section>
+        <section>
+          <h2>Declarative</h2>
+          <img src="assets/components.jpg" alt="user interface" height="300px">
+          <ul>
+            <li>React makes it painless to create interactive UIs.</li>
+            <li>Declarative views make code more predictable and easier to debug.</li>
+          </ul>
+          <aside class="notes">
+            Declarative.
+            React makes it painless to create interactive UIs. Design simple views for each state in application, 
+            and React will efficiently update and render just the right components when data changes.
+            Declarative views make code more predictable and easier to debug.
+            It lets you compose complex UIs from small and isolated pieces of code called “components”.
+          </aside> 
+        </section>
+        <section>
+          <section>
+            <h2>Few words about JSX</h2>
+            <pre><code data-trim data-noescape>
+              const element = &lt;h1&gt;Hello, world&lt;/h1&gt;;
+            </code></pre>
+            <p>This funny tag syntax is neither a string nor HTML.</p>
+            <aside class="notes">
+              Now, few words about JSX.
+              This funny tag syntax is neither a string nor HTML.            
             </aside>
+          </section>
+            <section>
+              <h3>JSX, or JavaScript XML , is an extension to the JavaScript language syntax.</h3>            
+              <ul>
+                <li>Allows you to focus on building components, not templates</li>
+                <li>Combining Markup and JavaScript reduces context switching</li>
+              </ul>
+              <aside class="notes">
+                JSX, or JavaScript XML , is an extension to the JavaScript language syntax. 
+                Similar in appearance to HTML, JSX provides a way to structure component rendering using syntax familiar to many developers. 
+                React components are typically written using JSX, although they do not have to be (components may also be written in pure JavaScript).
+              </aside>          
+          </section>
         </section>
         <section>
           <h2>Virtual DOM</h2>
+          <img src="assets/virtualDOM.png" alt="user interface" height="300px">
           <ul>
             <li>Re-rendering the whole app on every update is not efficient</li>
             <li>The Virtual DOM will only update what is necessary</li>
@@ -55,23 +104,21 @@
           </aside>
         </section>
         <section>
-          <h2>JSX</h2>
-            <p>JSX, or JavaScript XML , is an extension to the JavaScript language syntax.</p>
-            <pre><code data-trim data-noescape>
-              const element = &lt;h1&gt;Hello, world&lt;/h1&gt;;
-              ReactDOM.render(element, document.getElementById('root'));
-            </code></pre>
-            <ul>
-              <li>Allows you to focus on building components, not templates</li>
-              <li>Combining Markup and JavaScript reduces context switching</li>
-            </ul>
-            <aside class="notes">
-              This funny tag syntax is neither a string nor HTML.
-              JSX, or JavaScript XML , is an extension to the JavaScript language syntax. 
-              Similar in appearance to HTML, JSX provides a way to structure component rendering using syntax familiar to many developers. 
-              React components are typically written using JSX, although they do not have to be (components may also be written in pure JavaScript).
-            </aside>          
+          <h2>Flexible</h2>
+          <p>You can use as little or as much React as you need</p>
+          <aside class="notes">
+            React has been designed from the start for gradual adoption, and you can use as little or as much React as you need. 
+            Whether you want to get a taste of React, add some interactivity to a simple HTML page, or start a complex React-powered app. 
+          </aside>
         </section>
+        <section>
+          <h2>Conclusion</h2>
+          <blockquote>React is, in our opinion, the premier way to build big, fast Web apps with JavaScript.</blockquote>
+          <aside class="notes">
+            And in conclusion I would like to quote the words of the React developers:
+            React is, in our opinion, the premier way to build big, fast Web apps with JavaScript. 
+          </aside>
+        </section>          
 			</div>
 		</div>
 
